@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="assimp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/assimp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="SDL-1.2.14/include" />
+					<Add directory="Assimp/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image" />
+					<Add library="Assimp\lib\x86\assimp.lib" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add directory="SDL-1.2.14/lib" />
+					<Add directory="Assimp/lib/x86" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/assimp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../opgl/openassimpsource/GLee.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../opgl/openassimpsource/GLee.h" />
+		<Unit filename="../opgl/openassimpsource/camera.cpp" />
+		<Unit filename="../opgl/openassimpsource/camera.h" />
+		<Unit filename="../opgl/openassimpsource/mesh.cpp" />
+		<Unit filename="../opgl/openassimpsource/mesh.h" />
+		<Unit filename="../opgl/openassimpsource/meshData.h" />
+		<Unit filename="../opgl/openassimpsource/opengl.cpp" />
+		<Unit filename="../opgl/openassimpsource/sceneLoader.cpp" />
+		<Unit filename="../opgl/openassimpsource/sceneLoader.h" />
+		<Unit filename="../opgl/openassimpsource/vector3d.cpp" />
+		<Unit filename="../opgl/openassimpsource/vector3d.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

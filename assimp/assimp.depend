@@ -1,0 +1,386 @@
+# depslib dependency file v1.0
+1359656609 source:d:\csaba\opgl\openassimpsource\camera.cpp
+	"camera.h"
+
+1359656609 d:\csaba\opgl\openassimpsource\camera.h
+	<cmath>
+	<iostream>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"vector3d.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255796864 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_platform.h
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\begin_code.h
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\close_code.h
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_keysym.h
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255796850 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1359656610 d:\csaba\opgl\openassimpsource\vector3d.h
+	<iostream>
+	<cmath>
+
+1359656609 source:d:\csaba\opgl\openassimpsource\glee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"GLee.h"
+	<Carbon/Carbon.h>
+
+1359656609 d:\csaba\opgl\openassimpsource\glee.h
+	<windows.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<stddef.h>
+
+1359656609 source:d:\csaba\opgl\openassimpsource\mesh.cpp
+	"mesh.h"
+
+1359656609 d:\csaba\opgl\openassimpsource\mesh.h
+	<iostream>
+	"GLee.h"
+	"meshData.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<string>
+
+1359656609 d:\csaba\opgl\openassimpsource\meshdata.h
+	"vector3d.h"
+
+1359845295 source:d:\csaba\opgl\openassimpsource\opengl.cpp
+	<iostream>
+	<SDL/SDL.h>
+	"GLee.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	"camera.h"
+	<vector>
+	<string>
+	<fstream>
+	"sceneLoader.h"
+
+1359847191 d:\csaba\opgl\openassimpsource\sceneloader.h
+	<vector>
+	<assimp/cimport.h>
+	<assimp/Importer.hpp>
+	<assimp/scene.h>
+	<assimp/postprocess.h>
+	<SDL/SDL_image.h>
+	"mesh.h"
+	<cstring>
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\importer.hpp
+	"types.h"
+	"config.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\types.h
+	<sys/types.h>
+	<memory.h>
+	<math.h>
+	<stddef.h>
+	"defs.h"
+	"vector3.h"
+	"vector2.h"
+	"color4.h"
+	"matrix3x3.h"
+	"matrix4x4.h"
+	"quaternion.h"
+	<new>
+	<string>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"vector2.inl"
+	"vector3.inl"
+	"color4.inl"
+	"quaternion.inl"
+	"matrix3x3.inl"
+	"matrix4x4.inl"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\defs.h
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\vector3.h
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\compiler\pushpack1.h
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\compiler\poppack1.h
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\vector2.h
+	<math.h>
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\color4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\matrix3x3.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\matrix4x4.h
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\quaternion.h
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\vector2.inl
+	"vector2.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\vector3.inl
+	"vector3.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\color4.inl
+	"color4.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\quaternion.inl
+	"quaternion.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\matrix3x3.inl
+	"matrix3x3.h"
+	"matrix4x4.h"
+	<algorithm>
+	<limits>
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\matrix4x4.inl
+	"matrix4x4.h"
+	"matrix3x3.h"
+	"quaternion.h"
+	<algorithm>
+	<limits>
+	<math.h>
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\config.h
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\scene.h
+	"types.h"
+	"texture.h"
+	"mesh.h"
+	"light.h"
+	"camera.h"
+	"material.h"
+	"anim.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\texture.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\mesh.h
+	"types.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\light.h
+	"types.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\camera.h
+	"types.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\material.h
+	"types.h"
+	"./Compiler/pushpack1.h"
+	"./Compiler/poppack1.h"
+	"material.inl"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\material.inl
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\anim.h
+	"types.h"
+	"quaternion.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\postprocess.h
+	"types.h"
+
+1325785234 d:\csaba\assimp\sdl-1.2.14\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1359846008 source:d:\csaba\opgl\openassimpsource\sceneloader.cpp
+	"sceneLoader.h"
+
+1359656609 source:d:\csaba\opgl\openassimpsource\vector3d.cpp
+	"vector3d.h"
+
+1340737786 d:\csaba\assimp\assimp\include\assimp\cimport.h
+	"types.h"
+
