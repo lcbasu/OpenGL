@@ -11,6 +11,14 @@
 // Window dimensions
 const GLuint WIDTH = 800, HEIGHT = 600;
 
+void key_callback(GLFWwindow * window, int key, int scancode, int action, int mode)
+{
+    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+    {
+        glfwSetWindowShouldClose(window, GL_TRUE);
+    }
+}
+
 // The MAIN function, from here we start the application and run the game loop
 int main()
 {
@@ -45,6 +53,9 @@ int main()
     int width, height;
     glfwGetFramebufferSize(window, &width, &height);  
     glViewport(0, 0, width, height);
+
+    // Set the key callback
+    glfwSetKeyCallback(window, key_callback);
 
     // Game loop
     while (!glfwWindowShouldClose(window))
